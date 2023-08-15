@@ -8,7 +8,7 @@
 	let links = ['home', 'projects']
 </script>
 
-<nav class="bg-af_white">
+<nav class="mb-10">
 	<div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
 		<div class="relative flex h-16 flex-row-reverse items-center justify-between">
 			<div class="inset-y-0 left-0 flex items-center sm:hidden">
