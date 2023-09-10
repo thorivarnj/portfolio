@@ -26,25 +26,29 @@
 	)}
 >
 	<section class={clsx()}>
-		<h1 class={clsx('balance', 'text-5xl', 'max-w-[40ch]')}>{i18n.index.title}</h1>
-		<a
-			href="/projects"
-			class={clsx(
-				'inline-block',
-				'border-2px',
-				'border-4',
-				'border-black',
-				'bg-emerald',
-				'px-4',
-				'py-2',
-				'font-righteous',
-				'text-lg',
-				'drop-shadow-block_sm',
-				'hover:bg-bright_pink',
-				'my-6',
-				'md:mb-16'
-			)}>{i18n.index.button}</a
-		>
+		<div class="mb-40 flex justify-evenly">
+			<div class="self-center">
+				<h1 class={clsx('balance', 'text-5xl', 'max-w-[40ch]')}>{i18n.index.title}</h1>
+				<a
+					href="/projects"
+					class={clsx(
+						'inline-block',
+						'border-2px',
+						'border-4',
+						'border-black',
+						'bg-emerald',
+						'px-4',
+						'py-2',
+						'font-righteous',
+						'text-lg',
+						'drop-shadow-block_sm',
+						'hover:bg-bright_pink',
+						'my-6'
+					)}>{i18n.index.button}</a
+				>
+			</div>
+			<img src="/blob.svg" alt="" class="" />
+		</div>
 		<section class={clsx('flex', 'flex-col', 'gap-12', 'my-20', 'md:flex-row', 'justify-between')}>
 			{#each cards as card}
 				<HomepageCard title={card.title} description={card.text} />
