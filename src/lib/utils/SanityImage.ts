@@ -10,7 +10,7 @@ const builder = imageUrlBuilder(client)
 // builder an image and returns the builder for you to specify additional
 // parameters:
 function sanityImageLink(source: ImageSchemaType): string {
-    return builder.image(source) as unknown as string
+    return builder.image(source).width(960).height(540).url() as unknown as string
 }
 
 export { sanityImageLink }

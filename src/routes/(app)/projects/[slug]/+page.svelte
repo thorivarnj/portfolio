@@ -8,6 +8,10 @@
 	const project: ProjectType = data.project[0]
 </script>
 
+<svelte:head>
+	<title>tinj.io | {project.slug.current}</title>
+</svelte:head>
+
 <div class="relative">
 	<img
 		class={clsx('w-screen', 'h-40', 'lg:h-96', 'object-cover')}

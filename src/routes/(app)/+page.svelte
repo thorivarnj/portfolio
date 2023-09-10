@@ -6,6 +6,10 @@
 	let cards = i18n.index.cards
 </script>
 
+<svelte:head>
+	<title>tinj.io | homepage</title>
+</svelte:head>
+
 <div
 	class={clsx(
 		'mx-auto',
