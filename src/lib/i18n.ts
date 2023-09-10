@@ -5,7 +5,7 @@ export const i18n = {
         "cards": [
             {
                 "title": "About Me",
-                "text": "I am currently in my second year of studying towards a bachelor’s degree in web development at NTNU Gjøvik. Looking to expand my competency in the field in as many ways as possible."
+                "text": "I am currently in my third year of studying towards a bachelor’s degree in web development at NTNU Gjøvik. Currently on exchange at CODE University in Berlin. Looking to expand my competency in the field in as many ways as possible."
             },
             {
                 "title": "About This Page",
