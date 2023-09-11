@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
 	import clsx from 'clsx'
 
-	export let title, description
+	export let title: string, description: string
 </script>
 
 <article class={clsx('max-w-[40ch]')}>

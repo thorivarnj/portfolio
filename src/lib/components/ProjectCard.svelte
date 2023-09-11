@@ -28,7 +28,7 @@
 
 		{#if project.githubLink}
 			<a class="brightness-0 saturate-100 filter" target="_blank" href={project.githubLink}>
-				<img class="aspect-w-1 aspect-h-1 h-9" src="/img/github_icon.svg" alt="github icon" />
+				<img class="aspect-w-1 aspect-h-1 h-9" src="/img/github.svg" alt="github icon" />
 			</a>
 		{/if}
 	</div>

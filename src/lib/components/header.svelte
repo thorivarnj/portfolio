@@ -5,7 +5,7 @@
 	let mobileMenuOpen = false
 	const toggleMenu = () => (mobileMenuOpen = !mobileMenuOpen)
 
-	let links = ['home', 'projects']
+	let links = ['home', 'projects', 'contact']
 </script>
 
 <nav class="mb-10">
@@ -59,7 +59,7 @@
 			</div>
 			<div class="flex w-full items-center justify-between sm:items-stretch">
 				<div class="flex flex-shrink-0 items-center">
-					<h2 class="h-8 w-auto font-righteous text-2xl">TINJ</h2>
+					<a href="/" class="h-8 w-auto font-righteous text-2xl">TINJ</a>
 				</div>
 				<div class="hidden sm:ml-6 sm:block">
 					<div class="flex space-x-4">

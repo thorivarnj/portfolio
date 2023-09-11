@@ -47,7 +47,7 @@
 					)}>{i18n.index.button}</a
 				>
 			</div>
-			<img src="/blob.svg" alt="" class="" />
+			<img src="/blob.svg" alt="" class="hidden md:block" />
 		</div>
 		<section class={clsx('flex', 'flex-col', 'gap-12', 'my-20', 'md:flex-row', 'justify-between')}>
 			{#each cards as card}

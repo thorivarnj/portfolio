@@ -19,5 +19,10 @@ export const i18n = {
     },
     "projectcard": {
         "cta": "Read More"
+    },
+    "contact": {
+        "title": "Don't hesitate to contact me!",
+        "text": "If you have a question about my work or my experience, feel free to reach out to me anywhere, I would be more than happy to answer questions!"
     }
+
 }
