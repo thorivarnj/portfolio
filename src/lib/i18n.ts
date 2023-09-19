@@ -18,7 +18,7 @@ export const i18n = {
         "description": "Welcome to my projects section, where I showcase my passion for front-end web development and design. Here, you'll find a collection of projects that reflect my dedication to crafting visually appealing and user-friendly digital experiences."
     },
     "projectcard": {
-        "cta": "Read More"
+        "cta": "Explore Project"
     },
     "contact": {
         "title": "Don't hesitate to contact me!",
