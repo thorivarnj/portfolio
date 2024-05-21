@@ -26,8 +26,8 @@
 	)}
 >
 	<section class={clsx()}>
-		<div class="mb-40 flex justify-evenly">
-			<div class="self-center">
+		<div class="mb-40 flex flex-col-reverse items-center justify-evenly md:flex-row">
+			<section>
 				<h1 class={clsx('balance', 'text-5xl', 'max-w-[40ch]')}>{i18n.index.title}</h1>
 				<a
 					href="/projects"
@@ -46,8 +46,9 @@
 						'my-6'
 					)}>{i18n.index.button}</a
 				>
-			</div>
-			<img src="/blob.svg" alt="" class="hidden md:block" />
+			</section>
+
+			<img src="/portrett-portfolio.png" alt="" class="my-10 bg-custom_radial" />
 		</div>
 		<section class={clsx('flex', 'flex-col', 'gap-12', 'my-20', 'md:flex-row', 'justify-between')}>
 			{#each cards as card}

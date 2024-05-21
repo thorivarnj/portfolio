@@ -14,7 +14,7 @@
 		<!-- <p class="min-w-[7ch]">{{id}} / {{noOfItems}}</p> -->
 	</header>
 	<img
-		class="aspect-[16/10] w-full border-y-2 border-black object-cover"
+		class="aspect-[16/9] w-full border-y-2 border-black object-cover"
 		src={sanityImageLink(project.image)}
 		alt=""
 	/>

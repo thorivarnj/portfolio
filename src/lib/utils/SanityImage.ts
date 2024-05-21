@@ -1,4 +1,3 @@
-
 import { client } from '$lib/utils/sanity'
 import imageUrlBuilder from '@sanity/image-url'
 import type { Image, ImageSchemaType } from 'sanity'
@@ -10,7 +9,7 @@ const builder = imageUrlBuilder(client)
 // builder an image and returns the builder for you to specify additional
 // parameters:
 function sanityImageLink(source: ImageSchemaType): string {
-    return builder.image(source).width(960).height(540).url() as unknown as string
+	return builder.image(source).width(1920).height(1080).url() as unknown as string
 }
 
 export { sanityImageLink }

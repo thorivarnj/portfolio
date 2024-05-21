@@ -12,7 +12,7 @@
 	{:else if item._type == 'image'}
 		<img
 			class={clsx(
-				'aspect-[16/10]',
+				'aspect-[16/9]',
 				'w-full',
 				'border-4',
 				'border-black',
