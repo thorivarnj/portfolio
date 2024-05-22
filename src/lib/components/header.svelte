@@ -1,6 +1,10 @@
 <script>
 	import { clsx } from 'clsx'
 	import HeaderLinks from './headerLinks.svelte'
+	import { page } from '$app/stores'
+
+	const currentPage = $page.url.pathname
+	console.log(currentPage)
 
 	let mobileMenuOpen = false
 	const toggleMenu = () => (mobileMenuOpen = !mobileMenuOpen)
@@ -63,7 +67,9 @@
 				</div>
 				<div class="hidden sm:ml-6 sm:block">
 					<div class="flex space-x-4">
-						<HeaderLinks {links} />
+						{#key currentPage}
+							<HeaderLinks {links} {currentPage} />
+						{/key}
 					</div>
 				</div>
 			</div>
@@ -73,7 +79,7 @@
 	<!-- Mobile menu, show/hide based on menu state. -->
 	<div class={clsx('sm:hidden', mobileMenuOpen ? 'block' : 'hidden')} id="mobile-menu">
 		<div class="space-y-1 px-2 pb-3 pt-2">
-			<HeaderLinks {links} toggle={toggleMenu} />
+			<HeaderLinks {links} toggle={toggleMenu} {currentPage} />
 		</div>
 	</div>
 </nav>
