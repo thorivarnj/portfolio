@@ -1,11 +1,11 @@
 export const i18n = {
     "index": {
-        "title": "Hi! I'm Thor, a web-development student at NTNU Gjøvik",
+        "title": "Hi! I'm Thor, Oslo based web developer",
         "button": "View My Projects",
         "cards": [
             {
                 "title": "About Me",
-                "text": "I am currently in my third year of studying towards a bachelor’s degree in web development at NTNU Gjøvik. Looking to expand my competency in the field in as many ways as possible."
+                "text": "Currently working as a full-time web developer in Oslo. Not currently looking for new ventures."
             },
             {
                 "title": "About This Page",
@@ -15,7 +15,7 @@ export const i18n = {
     },
     "projects": {
         "title": "Projects",
-        "description": "Welcome to my projects section, where I showcase my passion for front-end web development and design. Here, you'll find a collection of projects that reflect my dedication to crafting visually appealing and user-friendly digital experiences."
+        "description": "Welcome to my projects section, where I showcase some of my projects created as a student. Here, you'll find a collection of projects that reflect my dedication to crafting visually appealing and user-friendly digital experiences."
     },
     "projectcard": {
         "cta": "Explore Project"
